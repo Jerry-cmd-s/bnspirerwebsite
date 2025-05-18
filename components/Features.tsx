@@ -1,39 +1,44 @@
 import React from "react";
 import FeatureCard from "./FeatureCard";
 import { FaReact, FaDatabase, FaShieldAlt } from "react-icons/fa";
+import { FcIdea } from "react-icons/fc";
+import { MdTrendingUp } from "react-icons/md";
 import { SiNextdotjs, SiTailwindcss, SiStripe } from "react-icons/si";
-
+import { CgInsights } from "react-icons/cg";
+import { LuMap } from "react-icons/lu";
+import { PiStepsDuotone } from "react-icons/pi";
+import { VscLibrary } from "react-icons/vsc";
 const Features = () => {
   const features = [
     {
-      icon: SiNextdotjs,
-      title: "Next.js 14",
-      description: "App dir, Routing, Layouts, components, and more.",
+      icon: FcIdea,
+      title: "AI-Powered Idea Generation",
+      description: "Input your industry, interests, or market trends, and Bnspirer’s AI generates tailored business ideas",
     },
     {
-      icon: FaReact,
-      title: "React 18",
+      icon: MdTrendingUp,
+      title: "Market Trend Analysis",
       description: "Server and Client Components. using hooks and context.",
     },
     {
-      icon: FaDatabase,
-      title: "Database",
-      description: "Postgres basic database and other cool features to come.",
+      icon: CgInsights,
+      title: "Competitor Insights",
+      description: "AI scans competitors in the user’s chosen industry to highlight gaps, weaknesses, or underserved areas where their business idea can stand out.",
     },
     {
-      icon: SiTailwindcss,
-      title: "Components",
-      description: "Awesome components built with Tailwind CSS and more to come.",
+      icon: LuMap,
+      title: "Business Model Suggestions",
+      description: "For each idea, the app provides AI-generated business model frameworks (e.g., subscription, freemium, or B2B) with pros, cons, and implementation tips.",
     },
     {
-      icon: FaShieldAlt,
-      title: "Authentication",
-      description: "Talk about your authentication features built into your app.",
+      icon: PiStepsDuotone,
+      title: "Actionable Next Steps",
+      description: "The AI delivers a step-by-step roadmap for each business idea, including tasks like market validation, prototyping, or funding strategies..",
     },
     {
-      icon: SiStripe,
-      title: "Subscriptions",
-      description: "Talk about your subscription features and how they work.",
+      icon: VscLibrary,
+      title: "Inspiration Library",
+      description: "A curated database of successful business case studies, trends, and AI-generated “what if” scenarios to spark creativity.",
     },
   ];
 
@@ -43,8 +48,7 @@ const Features = () => {
         <div className="text-center">
           <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl text-gray-900 dark:text-white mb-4">Features</h2>
           <p className="mt-8 text-xl text-gray-600 dark:text-gray-300 font-light">
-            Highlight cool features of your app using the beautifully designed custom cards with icons. You can use any
-            icon you want.
+          Unleash Your Business Potential with Bnspirer’s AI Features
           </p>
         </div>
         <div className="mt-10">

@@ -20,11 +20,10 @@ export default function Page() {
           leftHalf={
             <>
               <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl text-gray-900 dark:text-white mb-4">
-                Effortlessly highlight the key features of your app
+                Build tomorrow's business today with Ai 
               </h2>
               <p className="text-xl font-light">
-                Our app makes it easy to showcase your key features. With customizable sections, you can highlight the
-                most important aspects of your product. More to come.
+                Our app will generate a unique business idea that is innovative and original. It will also provide a detailed, step-by-step action plan to help you start the business.
               </p>
             </>
           }
