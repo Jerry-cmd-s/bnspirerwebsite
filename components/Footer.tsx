@@ -6,7 +6,10 @@ const Footer = () => {
   return (
     <footer className="bg-white border-t border-gray-100 dark:bg-black shadow-sm text-gray-400 py-6 dark:border-t dark:border-gray-800">
       <div className="container mx-auto px-4 flex flex-wrap justify-center sm:justify-between items-center text-sm">
-        <p className="ml-4">&copy; {currentYear} Bnspirer All rights reserved.</p>
+        <div className="flex flex-wrap justify-center sm:justify-start items-center">
+          <p className="ml-4">© {currentYear} Bnspirer All rights reserved.</p>
+          <a href="/privacy-policy" className="ml-4 text-gray-400 hover:text-gray-300">Privacy Policy</a>
+        </div>
         <div className="flex space-x-4 mt-2 mr-4 sm:mt-0">
           <a href="#" aria-label="Facebook" className="hover:text-gray-300">
             <AiOutlineFacebook className="w-5 h-5" />

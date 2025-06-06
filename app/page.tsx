@@ -9,6 +9,7 @@ import Accordion from "components/Accordion";
 import Reviews from "components/Reviews";
 import Download from "components/Download";
 
+
 export default function Page() {
   return (
     <div className="flex flex-col min-h-screen bg-white dark:bg-black">
