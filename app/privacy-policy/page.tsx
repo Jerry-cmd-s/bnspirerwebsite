@@ -2,7 +2,7 @@ import React from 'react';
 import Header from "components/Header";
 
 const PrivacyPolicy: React.FC = () => {
-  const containerStyle = {
+  const containerStyle: React.CSSProperties = {
     maxWidth: '800px',
     margin: '0 auto',
     padding: '40px',
@@ -11,54 +11,53 @@ const PrivacyPolicy: React.FC = () => {
     lineHeight: 1.6,
   };
 
-  const titleStyle = {
+  const titleStyle: React.CSSProperties = {
     textAlign: 'center',
     fontSize: '2.5em',
     marginBottom: '20px',
   };
 
-  const dateStyle = {
+  const dateStyle: React.CSSProperties = {
     textAlign: 'center',
     fontSize: '0.9em',
     marginBottom: '20px',
   };
 
-  const sectionHeadingStyle = {
+  const sectionHeadingStyle: React.CSSProperties = {
     textAlign: 'center',
     fontSize: '1.8em',
     marginBottom: '10px',
   };
 
-  const sectionStyle = {
+  const sectionStyle: React.CSSProperties = {
     marginBottom: '30px',
   };
 
-  const paragraphStyle = {
+  const paragraphStyle: React.CSSProperties = {
     marginBottom: '15px',
     textAlign: 'left', // Keep paragraphs left-aligned
   };
 
-  const listStyle = {
+  const listStyle: React.CSSProperties = {
     paddingLeft: '20px',
     marginBottom: '15px',
     textAlign: 'left', // Keep lists left-aligned
   };
 
-  const linkStyle = {
+  const linkStyle: React.CSSProperties = {
     color: '#007bff',
     textDecoration: 'underline',
   };
 
-  const consentStyle = {
+  const consentStyle: React.CSSProperties = {
     fontWeight: 'bold',
     marginTop: '20px',
     textAlign: 'left', // Keep consent statement left-aligned
   };
- 
+
   return (
-    
     <div style={containerStyle}>
-     <Header />
+      <Header />
       <main role="main">
         <h1 style={titleStyle}>Privacy Policy for B'nspirer</h1>
         <p style={dateStyle}><strong>Effective Date: June 05, 2025</strong></p>
